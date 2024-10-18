@@ -1,0 +1,29 @@
+{
+  "name": "blogapp",
+  "version": "1.0.0",
+  "description": "a crud project to implement a blog application using nodejs",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "startmon": "nodemon app.js"
+  },
+  "author": "nih",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^22.7.6",
+    "bcrypt": "^5.1.1",
+    "blogapp": "file:",
+    "connect-mongo": "^5.1.0",
+    "cookie-parser": "^1.4.6",
+    "dotenv": "^16.4.5",
+    "ejs": "^3.1.10",
+    "express": "^4.21.0",
+    "express-ejs-layouts": "^2.5.1",
+    "express-session": "^1.18.0",
+    "jsonwebtoken": "^9.0.2",
+    "method-override": "^3.0.0",
+    "mongoose": "^8.7.0",
+    "node": "^22.10.0"
+  }
+}
